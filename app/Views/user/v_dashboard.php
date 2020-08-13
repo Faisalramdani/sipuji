@@ -68,10 +68,10 @@
 									<li><a href="candidate-dashboard.html"><i class="ti-dashboard"></i>Candidate
 											Dashboard</a></li>
 									<li><a href="candidate-resume.html"><i class="ti-wallet"></i>My Resume</a></li>
-									<li><a href="applied-jobs.html"><i class="ti-hand-point-right"></i>Applied Jobs</a>
+									<li><a href="applied-jobs.html"><i class="ti-hand-point-right"></i>Applied Thesis</a>
 									</li>
-									<li><a href="saved-jobs.html"><i class="ti-heart"></i>Saved Jobs</a></li>
-									<li><a href="alert-jobs.html"><i class="ti-bell"></i>Alert Jobs</a></li>
+									<li><a href="saved-jobs.html"><i class="ti-heart"></i>Saved Thesis</a></li>
+									<li><a href="alert-jobs.html"><i class="ti-bell"></i>Alert Thesis</a></li>
 								</ul>
 							</div>
 						</div>
