@@ -10598,7 +10598,8 @@ button.btn.submit-btn.ft-search {
     }
 
     nav.navbar .navbar-brand img.logo {
-        width: 210px
+        width: 210px;
+        margin-top: 14px;
     }
 
     nav.navbar li.dropdown ul.dropdown-menu {
@@ -12674,6 +12675,10 @@ a.navbar-button {
 .container-navbar {
     display: flex;
     flex-direction: row;
+}
+
+.signin .text-not-uppercase {
+    text-transform: none;
 }
 
 /* container header navbar normal */
