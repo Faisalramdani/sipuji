@@ -19,7 +19,7 @@
 				<div class="collapse navbar-collapse" id="navbar-menu">
 					
 					<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-						<li><a href="register.html"><i class="fa fa-sign-in"></i>Log Out</a></li>
+						<li><a href="<?= base_url('/login'); ?>"><i class="fa fa-sign-in"></i>Log Out</a></li>
 						<li class="left-br"><a href="javascript:void(0)" data-toggle="modal" data-target="#signup"
 								class="signin">Post Thesis</a></li>
 					</ul>
@@ -61,7 +61,7 @@
 								
 								
 									<li><a href="myprofile.html"><i class="ti-id-badge"></i>Edit Profile</a></li>
-									<li><a href="login.html"><i class="ti-power-off"></i>Logout</a></li>
+									<li><a href="<?= base_url('/login'); ?>"><i class="ti-power-off"></i>Logout</a></li>
 								</ul>
 								<h4>User</h4>
 								<ul>
@@ -129,27 +129,27 @@
 
 									<!-- Notifications -->
 									<div class="row">
-										<div class="col-lg-6 col-md-12">
+										<div class="col-lg-12 col-md-12">
 											<div class="dashboard-gravity-list with-icons">
 												<h4>Recent Activities</h4>
 												<ul>
-													<li>
-														<i class="dash-icon-box ti-layers"></i> Your job <strong><a
-																href="#">App Developer</a></strong> has been approved!
+													<li class="recent-success">
+														<i class="dash-icon-box ti-check ic-success"></i> Your thesis <strong><a
+																href="#">Sistem DSIT</a></strong> has been approved!
 														<a href="#" class="close-list-item"><i
 																class="fa fa-close"></i></a>
 													</li>
 
-													<li>
-														<i class="dash-icon-box ti-star"></i> Your job <strong><a
-																href="#">Android Developer</a></strong> expire soon!
+													<li class="recent-primary">
+														<i class="dash-icon-box fa fa-spinner"></i> Your thesis <strong><a
+																href="#">Sistem DSIT</a></strong> in progress!
 														<a href="#" class="close-list-item"><i
 																class="fa fa-close"></i></a>
 													</li>
 
-													<li>
-														<i class="dash-icon-box ti-heart"></i> Someone bookmarked your
-														<strong><a href="#">Web Designer</a></strong> job!
+													<li class="recent-danger">
+														<i class="dash-icon-box ti-close"></i> Your thesis
+														<strong><a href="#">Sistem DSIT</a></strong> was rejected!
 														<a href="#" class="close-list-item"><i
 																class="fa fa-close"></i></a>
 													</li>
@@ -186,86 +186,7 @@
 											</div>
 										</div>
 
-										<div class="col-lg-6 col-md-12">
-											<div class="dashboard-gravity-list invoices with-icons">
-												<h4>Invoices</h4>
-												<ul>
-
-													<li><i class="dash-icon-box ti-files"></i>
-														<strong>Starter Plan</strong>
-														<ul>
-															<li class="unpaid">Unpaid</li>
-															<li>Order: #20551</li>
-															<li>Date: 01/08/2019</li>
-														</ul>
-														<div class="buttons-to-right">
-															<a href="#" class="button gray">View Invoice</a>
-														</div>
-													</li>
-
-													<li><i class="dash-icon-box ti-files"></i>
-														<strong>Basic Plan</strong>
-														<ul>
-															<li class="paid">Paid</li>
-															<li>Order: #20550</li>
-															<li>Date: 01/07/2019</li>
-														</ul>
-														<div class="buttons-to-right">
-															<a href="#" class="button gray">View Invoice</a>
-														</div>
-													</li>
-
-													<li><i class="dash-icon-box ti-files"></i>
-														<strong>Extended Plan</strong>
-														<ul>
-															<li class="paid">Paid</li>
-															<li>Order: #20549</li>
-															<li>Date: 01/06/2019</li>
-														</ul>
-														<div class="buttons-to-right">
-															<a href="#" class="button gray">View Invoice</a>
-														</div>
-													</li>
-
-													<li><i class="dash-icon-box ti-files"></i>
-														<strong>Platinum Plan</strong>
-														<ul>
-															<li class="paid">Paid</li>
-															<li>Order: #20548</li>
-															<li>Date: 01/05/2019</li>
-														</ul>
-														<div class="buttons-to-right">
-															<a href="#" class="button gray">View Invoice</a>
-														</div>
-													</li>
-
-													<li><i class="dash-icon-box ti-files"></i>
-														<strong>Extended Plan</strong>
-														<ul>
-															<li class="paid">Paid</li>
-															<li>Order: #20547</li>
-															<li>Date: 01/04/2019</li>
-														</ul>
-														<div class="buttons-to-right">
-															<a href="#" class="button gray">View Invoice</a>
-														</div>
-													</li>
-
-													<li><i class="dash-icon-box ti-files"></i>
-														<strong>Platinum Plan</strong>
-														<ul>
-															<li class="paid">Paid</li>
-															<li>Order: #20546</li>
-															<li>Date: 01/03/2019</li>
-														</ul>
-														<div class="buttons-to-right">
-															<a href="#" class="button gray">View Invoice</a>
-														</div>
-													</li>
-
-												</ul>
-											</div>
-										</div>
+									
 									</div>
 
 								</div>

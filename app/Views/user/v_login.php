@@ -14,7 +14,7 @@
             <!-- Start Header Navigation -->
             <div class="navbar-header text-center">
                 <a class="navbar-brand" href="<?= base_url('/'); ?>">
-                    <img src="<?= base_url('assets'); ?>/assets_inti/img/Logo-Sipuji.png" class="logo logo-scrolled" alt="">
+                    <img src="<?= base_url('assets'); ?>/assets_inti/img/Logo-Sipuji.png" class="logo-login logo-scrolled" alt="">
                 </a>
             </div>
         </div>

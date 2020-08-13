@@ -10602,6 +10602,11 @@ button.btn.submit-btn.ft-search {
         margin-top: 14px;
     }
 
+    nav.navbar .navbar-brand img.logo-login {
+        width: 210px;
+        margin-top: 0px;
+    }
+
     nav.navbar li.dropdown ul.dropdown-menu {
         border-top: solid 5px
     }
@@ -12749,5 +12754,30 @@ span.material-icons.md-40 {
 
 /* end form custom */
 
+
+/* Notification */
+
+.recent-success {
+    color: #FFF;
+    background-color: #03a84ec7;
+}
+
+.recent-success {
+    color: #FFF;
+    background-color: #072c5cb3;
+}
+
+.recent-danger {
+    color: #FFF;
+    background-color: #f77171;
+}
+
+/* End Notification */
+
+/* Colors */
+
+
+
+/* End Colors */
 
 /* end Bootstraper */
