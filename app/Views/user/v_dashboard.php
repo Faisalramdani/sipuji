@@ -55,17 +55,15 @@
 								<ul>
 									<li class="active"><a href="dashboard.html"><i
 												class="ti-dashboard"></i>Dashboard</a></li>
-									<li><a href="post-new-job.html"><i class="ti-ruler-pencil"></i>Post New Page</a>
+									<li><a href="post-new-job.html"><i class="ti-ruler-pencil"></i>Post Thesis</a>
 									</li>
-									<li><a href="all-jobs.html"><i class="ti-briefcase"></i>All Jobs</a></li>
-									<li><a href="applications.html"><i class="ti-user"></i>Applications</a></li>
-									<li><a href="packages.html"><i class="ti-wallet"></i>Packages</a></li>
-									<li><a href="choose-package.html"><i class="ti-cup"></i>Choose Packages</a></li>
-									<li><a href="viewed-resume.html"><i class="ti-flag-alt-2"></i>Viewed Resume</a></li>
+									<li><a href="all-jobs.html"><i class="ti-briefcase"></i>Registered Thesis</a></li>
+								
+								
 									<li><a href="myprofile.html"><i class="ti-id-badge"></i>Edit Profile</a></li>
 									<li><a href="login.html"><i class="ti-power-off"></i>Logout</a></li>
 								</ul>
-								<h4>For Candidate</h4>
+								<h4>User</h4>
 								<ul>
 									<li><a href="candidate-dashboard.html"><i class="ti-dashboard"></i>Candidate
 											Dashboard</a></li>
