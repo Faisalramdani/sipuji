@@ -44,6 +44,8 @@ $routes->get('/thesis', 'User::thesis');
 $routes->get('/user/thesis', 'User::thesis');
 $routes->get('/registered_thesis', 'User::registered_thesis');
 $routes->get('/user/registered_thesis', 'User::registered_thesis');
+$routes->get('/user/applied_thesis', 'User::applied_thesis');
+$routes->get('/applied_thesis', 'User::applied_thesis');
 $routes->get('/login/admin', 'Admin::login');
 $routes->get('/register', 'Home::login');
 $routes->get('/admin', 'Admin::login');

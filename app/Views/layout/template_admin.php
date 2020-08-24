@@ -80,9 +80,9 @@
 								
                                 
                                 
-                                <li><a href="applied-jobs.html"><i class="ti-hand-point-right"></i>Applied Thesis</a>
+                                <li><a href="/applied_thesis"><i class="ti-hand-point-right"></i>Applied Thesis</a>
                             </li>
-                            <li><a href="saved-jobs.html"><i class="ti-heart"></i>Saved Thesis</a></li>
+                      
                             <li><a href="alert-jobs.html"><i class="ti-bell"></i>Notification Thesis</a></li>
 </ul>
 <ul>

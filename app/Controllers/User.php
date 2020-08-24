@@ -31,6 +31,10 @@ class User extends BaseController
         return view ('user/v_registered_thesis');
     }
 
+    public function applied_thesis(){
+        return view ('user/v_applied_thesis');
+    }
+
     //--------------------------------------------------------------------
 
 }

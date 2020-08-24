@@ -16,11 +16,11 @@
 									<!-- Overview -->
 									<div class="row">
 										<div class="col-lg-3 col-md-6 col-sm-12">
-											<div class="dashboard-stat widget-1">
+											<div class="dashboard-stat widget-3">
 												<div class="dashboard-stat-content">
-													<h4>0</h4> <span>Thesis Posted</span>
+													<h4>0</h4> <span>On Progress</span>
 												</div>
-												<div class="dashboard-stat-icon"><i class="ti-location-pin"></i></div>
+												<div class="dashboard-stat-icon"><i class="dash-icon-box fa fa-spinner"></i></div>
 											</div>
 										</div>
 
@@ -33,21 +33,21 @@
 											</div>
 										</div>
 
-										<div class="col-lg-3 col-md-6 col-sm-12">
-											<div class="dashboard-stat widget-3">
-												<div class="dashboard-stat-content">
-													<h4>712</h4> <span>Total Views</span>
-												</div>
-												<div class="dashboard-stat-icon"><i class="ti-pie-chart"></i></div>
-											</div>
-										</div>
 
 										<div class="col-lg-3 col-md-6 col-sm-12">
 											<div class="dashboard-stat widget-4">
 												<div class="dashboard-stat-content">
 													<h4>0</h4> <span>Thesis Failed</span>
 												</div>
-												<div class="dashboard-stat-icon"><i class="ti-bookmark"></i></div>
+												<div class="dashboard-stat-icon"><i class="dash-icon-box ti-close"></i></div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6 col-sm-12">
+											<div class="dashboard-stat widget-1">
+												<div class="dashboard-stat-content">
+													<h4>0</h4> <span>Thesis Approved</span>
+												</div>
+												<div class="dashboard-stat-icon"><i class="dash-icon-box ti-check ic-success"></i></div>
 											</div>
 										</div>
 									</div>
