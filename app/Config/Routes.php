@@ -41,6 +41,7 @@ $routes->get('/dashboard', 'User::dashboard');
 $routes->get('/profile', 'User::profile');
 $routes->get('/user/profile', 'User::profile');
 $routes->get('/thesis', 'User::thesis');
+$routes->get('/search_thesis', 'Thesis::index');
 $routes->get('/user/thesis', 'User::thesis');
 $routes->get('/registered_thesis', 'User::registered_thesis');
 $routes->get('/user/registered_thesis', 'User::registered_thesis');

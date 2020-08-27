@@ -54,6 +54,74 @@
                 </form>
             </div>
         </div>
+
+
+        <!-- Hasil Pencarian -->
+        <div class="container mt-4">
+            <!--Browse Candidates -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                    <?php $i = 1; ?>
+                    <?php foreach ($thesis as $t) : ?>
+
+                        <!-- cek jika thesis terdaftar -->
+                        <?php
+
+                        $rc = $t['mhs_thesis_registered'];
+
+
+                        ?>
+                        <?php if ($rc = '1') : ?>
+                            <?php $rc = "Nothing Thesis"; ?>
+                        <?php elseif ($rc = 1) : ?>
+                            <?php $rc = "Registered"; ?>
+                        <?php else : ?>
+                            <?php $rc = "Failed Registered"; ?>
+                        <?php endif; ?>
+
+
+                        <!-- end cek -->
+
+                        <!-- Single Candidate List -->
+                        <div class="candidate-list-layout">
+                            <div class="cll-wrap">
+                                <div class="cll-thumb">
+                                    <!-- <a href="resume-detail.html"><img src="<?= base_url('assets'); ?>/assets_inti/img/hero1.jpg" class="img-responsive img-circle" alt="" /></a> -->
+                                </div>
+                                <div class="cll-caption">
+                                    <h4><a href="resume-detail.html"><?= $t['mhs_name']; ?></a><span><i class="ti-briefcase"></i><?= $t['mhs_thesis']; ?></span></h4>
+                                    <ul>
+                                        <li><i class="fa fa-graduation-cap"></i><?= $t['mhs_majors']; ?></li>
+                                        <li><i class="ti-time "></i>Sunday 04 - June - 2020 | <?= $rc; ?> <i class="ti-check cl-success"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="cll-right">
+                                <a href="#" class="btn theme-btn btn-shortlist"><?= $rc; ?><i class="ti-check"></i></a>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <!--/.Browse Job-->
+
+
+            <!-- <div class="row mrg-0">
+                <ul class="pagination">
+                    <li><a href="#"><i class="ti-arrow-left"></i></a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#"><i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a href="#"><i class="ti-arrow-right"></i></a></li>
+                </ul>
+            </div> -->
+
+        </div>
+        <!-- End Hasil Pencarian -->
     </div>
 </section>
 

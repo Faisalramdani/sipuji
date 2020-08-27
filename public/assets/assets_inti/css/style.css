@@ -9332,7 +9332,8 @@ html body .b-r {
 .cll-caption ul {
     margin: 0;
     padding: 0;
-    margin-top: 1rem
+    color: #272f46;
+    margin-top: 1rem;
 }
 
 .cll-caption ul li {
@@ -9364,7 +9365,7 @@ html body .b-r {
 }
 
 .btn.theme-btn.btn-shortlist i {
-    margin-right: 10px
+    margin-left: 10px
 }
 
 .btn.btn-opening {

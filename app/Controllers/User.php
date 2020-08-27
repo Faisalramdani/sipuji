@@ -19,20 +19,24 @@ class User extends BaseController
         return view('user/v_register');
     }
 
-    public function profile(){
-        return view ('user/v_profile');
+    public function profile()
+    {
+        return view('user/v_profile');
     }
 
-    public function thesis(){
-        return view ('user/v_post_thesis');
+    public function thesis()
+    {
+        return view('user/v_post_thesis');
     }
 
-    public function registered_thesis(){
-        return view ('user/v_registered_thesis');
+    public function registered_thesis()
+    {
+        return view('user/v_registered_thesis');
     }
 
-    public function applied_thesis(){
-        return view ('user/v_applied_thesis');
+    public function applied_thesis()
+    {
+        return view('user/v_applied_thesis');
     }
 
     //--------------------------------------------------------------------
