@@ -18,92 +18,88 @@
 <body>
     <div class="Loader"></div>
     <div class="wrapper">
-	
-			<!-- Start Navigation -->
-            <nav class="navbar navbar-default navbar-fixed navbar-light white bootsnav">
 
-<div class="container">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-        <i class="fa fa-bars"></i>
-    </button>
-    <!-- Start Header Navigation -->
-    <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">
-            <img src="<?= base_url('assets'); ?>/assets_inti/img/Logo-Sipuji.png" class="logo logo-scrolled" alt="">
-        </a>
-    </div>
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default navbar-fixed navbar-light white bootsnav">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-menu">
-        
-        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-            <li><a href="<?= base_url('/login'); ?>"><i class="fa fa-sign-in"></i>Log Out</a></li>
-            <li class="left-br"><a href="<?= base_url('/thesis'); ?>"
-                    class="signin">Post Thesis</a></li>
-        </ul>
-    </div><!-- /.navbar-collapse -->
-</div>
-</nav>
-<!-- End Navigation -->
-<div class="clearfix"></div>
+            <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/user">
+                        <img src="<?= base_url('assets'); ?>/assets_inti/img/Logo-Sipuji.png" class="logo logo-scrolled" alt="">
+                    </a>
+                </div>
 
-<!-- General Detail Start -->
-<section class="dashboard-wrap">
-<div class="container-fluid">
-    <div class="row">
-						<!-- Sidebar Wrap -->
-                        <div class="col-lg-3 col-md-4">
-						<div class="side-dashboard">
-                            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="/user/login"><i class="fa fa-sign-in"></i>Log Out</a></li>
+                        <li class="left-br"><a href="/user/thesis" class="signin">Post Thesis</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- End Navigation -->
+        <div class="clearfix"></div>
+
+        <!-- General Detail Start -->
+        <section class="dashboard-wrap">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Sidebar Wrap -->
+                    <div class="col-lg-3 col-md-4">
+                        <div class="side-dashboard">
+
                             <div class="dashboard-avatar">
-                                
+
                                 <div class="dashboard-avatar-thumb">
                                     <img src="<?= base_url('assets'); ?>/assets_inti/img/hero1.jpg" class="img-avater" alt="" />
-								</div>
-                                
-								<div class="dashboard-avatar-text">
+                                </div>
+
+                                <div class="dashboard-avatar-text">
                                     <h4>Muhamad Faisal Ramdani</h4>
-									<span>Fakultas Ilkom</span>
-								</div>
-                                
-							</div>
-                            
-							<div class="dashboard-menu">
+                                    <span>Fakultas Ilkom</span>
+                                </div>
+
+                            </div>
+
+                            <div class="dashboard-menu">
                                 <h4>Student</h4>
                                 <ul>
-                                    <li class="active"><a href="<?= base_url('/dashboard'); ?>"><i
-                                    class="ti-dashboard"></i>Dashboard</a></li>
-									<li><a href="<?= base_url('/thesis'); ?>"><i class="ti-ruler-pencil"></i>Post Thesis</a>
-                                </li>  
-                                <li><a href="<?= base_url('/registered_thesis'); ?>"><i class="ti-briefcase"></i>Registered Thesis</a></li>
-								
-								
-                                
-                                
-                                <li><a href="/applied_thesis"><i class="ti-hand-point-right"></i>Applied Thesis</a>
-                            </li>
-                      
-                            <li><a href="alert-jobs.html"><i class="ti-bell"></i>Notification Thesis</a></li>
-</ul>
-<ul>
-                            <h4>User</h4>
-                                <li><a href="<?= base_url('/profile'); ?>"><i class="ti-id-badge"></i>Edit Profile</a></li>
-                                <li><a href="<?= base_url('/login'); ?>"><i class="ti-power-off"></i>Logout</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+                                    <li class="active"><a href="/user"><i class="ti-dashboard"></i>Dashboard</a></li>
+                                    <li><a href="/user/thesis"><i class="ti-ruler-pencil"></i>Post Thesis</a>
+                                    </li>
+                                    <li><a href="/user/registered_thesis"><i class="ti-briefcase"></i>Registered Thesis</a></li>
+
+                                    <!-- <li><a href="/user/applied_thesis"><i class="ti-hand-point-right"></i>Applied Thesis</a>
+                                    </li> -->
+
+                                    <li><a href="#"><i class="ti-bell"></i>Notification Thesis</a></li>
+
+                                </ul>
+                                <ul>
+                                    <h4>User</h4>
+                                    <li><a href="/user/profile"><i class="ti-id-badge"></i>Edit Profile</a></li>
+                                    <li><a href="/user/login"><i class="ti-power-off"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
                     <?= $this->renderSection('content-admin'); ?>
-				
 
-			
+
+
+                </div>
             </div>
-</div>
-		</section>
-		<!-- General Detail End -->
+        </section>
+        <!-- General Detail End -->
 
-	
+
         <!-- ============================ Before Footer ================================== -->
         <div class="before-footer">
             <div class="container">

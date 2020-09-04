@@ -4,7 +4,7 @@
 <!-- Start Navigation -->
 <nav class="navbar navbar-default navbar-fixed navbar-light white bootsnav">
     <div class="container-navbar">
-        <a href="/home" class="navbar-button"><span class="material-icons md-40">
+        <a href="/" class="navbar-button"><span class="material-icons md-40">
                 keyboard_backspace
             </span></a>
         <div class="container-content-navbar">

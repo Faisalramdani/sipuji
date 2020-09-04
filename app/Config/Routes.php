@@ -18,9 +18,9 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  */
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('Home');
-$routes->setDefaultMethod('');
+$routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
-$routes->set404Override(true);
+$routes->set404Override();
 $routes->setAutoRoute(true);
 
 /**
@@ -33,26 +33,26 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Home::index');
-$routes->get('/home', 'Home::index');
-$routes->get('/login', 'User::login');
-$routes->get('/login/user', 'User::login');
-$routes->get('/user/dashboard', 'User::dashboard');
-$routes->get('/dashboard', 'User::dashboard');
-$routes->get('/profile', 'User::profile');
-$routes->get('/user/profile', 'User::profile');
-$routes->get('/thesis', 'User::thesis');
-$routes->get('/search_thesis', 'Thesis::index');
-$routes->get('/user/thesis', 'User::thesis');
-$routes->get('/registered_thesis', 'User::registered_thesis');
-$routes->get('/user/registered_thesis', 'User::registered_thesis');
-$routes->get('/user/applied_thesis', 'User::applied_thesis');
-$routes->get('/applied_thesis', 'User::applied_thesis');
-$routes->get('/login/admin', 'Admin::login');
-$routes->get('/register', 'Home::login');
-$routes->get('/admin', 'Admin::login');
-$routes->get('/admin/login', 'Admin::login');
-$routes->get('/admin/register', 'Admin::register');
-$routes->get('/admin/dashboard', 'Admin::dashboard');
+// $routes->get('/home', 'Home::index');
+// $routes->get('/login', 'User::login');
+// $routes->get('/login/user', 'User::login');
+// $routes->get('/user/dashboard', 'User::dashboard');
+// $routes->get('/dashboard', 'User::dashboard');
+// $routes->get('/profile', 'User::profile');
+// $routes->get('/user/profile', 'User::profile');
+// $routes->get('/thesis', 'User::thesis');
+
+// $routes->get('/user/thesis', 'User::thesis');
+// $routes->get('/registered_thesis', 'User::registered_thesis');
+// $routes->get('/user/registered_thesis', 'User::registered_thesis');
+// $routes->get('/user/applied_thesis', 'User::applied_thesis');
+// $routes->get('/applied_thesis', 'User::applied_thesis');
+// $routes->get('/login/admin', 'Admin::login');
+// $routes->get('/register', 'Home::login');
+// $routes->get('/admin', 'Admin::login');
+// $routes->get('/admin/login', 'Admin::login');
+// $routes->get('/admin/register', 'Admin::register');
+// $routes->get('/admin/dashboard', 'Admin::dashboard');
 
 /**
  * --------------------------------------------------------------------

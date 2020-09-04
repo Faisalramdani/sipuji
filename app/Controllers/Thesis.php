@@ -15,10 +15,28 @@ class Thesis extends BaseController
 
     public function index()
     {
+
+        $currentPage = $this->request->getVar('pager_thesis') ? $this->request->getVar('pager_thesis') : 1;
+
+        $keyword = $this->request->getVar('keyword');
+
+       
+
+        if ($keyword) {
+            $thesis = $this->thesisModel->search($keyword);
+        } else {
+            $thesis = $this->thesisModel;
+        }
+
+
         $data = [
             'title' => 'Daftar Thesis',
-            'thesis' => $this->thesisModel->findall()
+            'thesis' => $thesis->paginate(1, 'tbl_mhs'),
+            'pager' => $this->thesisModel->pager,
+            'currentPage' => $currentPage
         ];
-        return view('v_home', $data);
+
+
+        return view('thesis/index', $data);
     }
 }

@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class User extends BaseController
 {
-    public function dashboard()
+    public function index()
     {
         return view('user/v_dashboard');
     }
